@@ -6,7 +6,7 @@ import { FormGroup } from '@mui/material';
 
 import { FilterType } from '../types';
 
-import './FilterOptionCheckbox.scss';
+import styles from './filterOptionCheckbox.module.css';
 
 const FilterOptionCheckbox = ({ name, value }: FilterType): ReactElement => (
   <FormGroup className='filter-checkbox-wrapper'>

@@ -5,7 +5,7 @@ import { FilterList } from '../FilterList';
 
 import { FilterType } from '../types';
 
-import './Filter.scss';
+import styles from  './filter.module.css';
 
 type FilterPropsType = {
   teamFilter: FilterType[];
@@ -23,11 +23,11 @@ const Filter = memo(
       keyPrefix: 'filter'
     });
     return (
-      <div className='filter'>
-        <div className='filter__wrapper'>
-          <div className='filter__header'>
-            <h3 className='filter__title'>{t('FILTERS')}</h3>
-            <Button className='clear-button'>{t('CLEAR ALL')}</Button>
+      <div className={styles.filter}>
+        <div className={styles.filter__wrapper}>
+          <div className={styles.filter__header}>
+            <h3 className={styles.filter__title}>{t('FILTERS')}</h3>
+            <Button className={styles.clear__button}>{t('CLEAR ALL')}</Button>
           </div>
           <div>
             <FilterList title={t('TEAM')} filter={teamFilter} />

@@ -13,7 +13,7 @@ const Header = memo(({ onLogoutClick }: HeaderPropsType): ReactElement => {
   return (
     <header className={styles.header}>
       <div className={styles.header_wrapper}>
-        <h2 className={styles.dashboard_name}>{t('title')}</h2>
+        <h2 className={styles.dashboard_name}>{t('header.title')}</h2>
         <div className={styles.header_logoIcon}>
           <img src='/assets/icons/header-icon.png' alt='logo icon' />
         </div>

@@ -16,6 +16,7 @@ const Home: NextPage = () => {
       <div className='app'>
         <Header />
         <main className='dashboard'>
+          <Filter />
           <Grid container className='widgets'>
           </Grid>
         </main>

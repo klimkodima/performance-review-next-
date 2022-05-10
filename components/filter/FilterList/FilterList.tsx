@@ -12,7 +12,7 @@ import { FilterListItem } from '../FilterListItem';
 
 import { FilterType } from '../types';
 
-import './FilterList.scss';
+import styles from  './filterList.module.css';
 
 type FilterListPropsType = {
   popUpId: string | undefined;

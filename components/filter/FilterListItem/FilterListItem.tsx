@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import ListItem from '@mui/material/ListItem';
 import IconButton from '@mui/material/IconButton';
 
-import './FilterListItem.scss';
+import styles from './filterListItem.module.css';
 
 type FilterListItemPropsType = {
   name: string;
