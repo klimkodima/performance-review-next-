@@ -1,0 +1,16 @@
+.filter-list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filter-list-item__filter-name {
+  color: #818181;
+}
+
+.filter-list-item__delete-button {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+}
